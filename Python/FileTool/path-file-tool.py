@@ -1,7 +1,6 @@
 #!/bin/python
 #coding=gb2312
 #/*******************************************************************************
-# * Author	 : liubing@sogou-inc.com
 # * Last modified : 2016-04-27 16:16
 # * Filename	 : PathPathFileTool.py
 # * Description	 : 文件处理工具
