@@ -12,4 +12,4 @@ random.shuffle(itemList)
 fd = open(output, 'w+')
 for item in itemList:
   fd.write('%s' % item)
-fd.close(
+fd.close()
