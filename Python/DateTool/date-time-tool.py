@@ -52,7 +52,13 @@ class DateTimeTool:
 		except:
 			return str
 		return str
-
+	
+	# 时间差
+	@staticmethod
+	def time_dis(time1Str, time2Str, timeFmt='%Y-%m-%d %H:%M:%S'):
+		time1 = datetime.strptime(time1Str, timeFmt)
+		time2 = datetime.strptime(time2Str, timeFmt)
+		return (time2 - time1).seconds
 
 
 if __name__ == '__main__':
