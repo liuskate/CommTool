@@ -1,5 +1,5 @@
 #!/bin/bash
-# 载入数据到数据库中
+# 从数据库中导出数据
 
 if [ -f ./bin/functions.sh ]; then
 . ./bin/functions.sh
