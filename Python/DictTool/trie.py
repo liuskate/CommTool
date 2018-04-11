@@ -2,6 +2,7 @@
 #coding=utf-8
 # 基于marisa-trie构建字典树，以快速查询
 # pip install marisa-trie
+# https://github.com/pytries/marisa-trie
 import marisa_trie
 import cPickle as pickle
 
