@@ -1,4 +1,5 @@
 #!/bin/bash
+# coding=utf-8
 
 # 索引名称
 ALBUM="child_album"
